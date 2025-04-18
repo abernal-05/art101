@@ -3,6 +3,14 @@ h1 {
     font-size: 250%
 }
 
+.links {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: solid 3px #888;
+  background-color: #E9DCEB;
+
+}
+
 p {
   font-family: "comic sans";
   text-indent: 20px;
@@ -20,3 +28,4 @@ p {
     font-size: 40px;
 
 }
+

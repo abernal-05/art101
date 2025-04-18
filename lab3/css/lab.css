@@ -4,6 +4,31 @@
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
+    border: solid 3px #888;
+    background-color: #E9DCEB;
   }
+
+.file-structure {
+  padding: 10px;
+  margin-bottom: 10px;
+  max-width: 350px;
+  border: solid 3px #5163EB;
+  background-color: #87C9F0; 
+}
+
+.home-code {
+  padding: 10px;
+  margin-bottom: 10px;
+  max-width: 350px;
+  border: solid 3px #5163EB;
+  background-color: #87C9F0; 
+}
+
+.lab3-code {
+  padding: 10px;
+  margin-bottom: 10px;
+  max-width: 350px;
+  border: solid 3px #5163EB;
+  background-color: #87C9F0; 
+}
+
