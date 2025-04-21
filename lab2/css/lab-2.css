@@ -3,11 +3,11 @@ h1 {
     font-size: 250%
 }
 
-.links {
+#links {
   padding: 10px;
-  margin-bottom: 10px;
-  border: solid 3px #888;
-  background-color: #E9DCEB;
+  margin-bottom: 5px;
+  border: 15px #F0BAC0;
+  background-color: #d6bcda;
 
 }
 
@@ -23,7 +23,6 @@ p {
     min-height: 300px;
     padding: 10px;
     margin: 10px;
-    border: solid 1px #444444;
     outline: dotted 15px #F0BAC0;
     font-size: 40px;
 
