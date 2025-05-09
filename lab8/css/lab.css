@@ -2,14 +2,14 @@
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 
-.minor-section {
+
+.content {
     padding: 10px;
     margin-bottom: 10px;
     border: solid 1px #888;
     background-color: #DDD8C4;
   }
-
-  .lab4-filestructure {
+.minor-section {
     padding: 10px;
     margin-bottom: 10px;
     max-width: 350px;
@@ -17,7 +17,7 @@
     background-color: #87C9F0; 
   }
 
-  .js-results {
+.challenges {
     padding: 10px;
     margin-bottom: 10px;
     max-width: 350px;
@@ -25,12 +25,18 @@
     background-color: #87C9F0; 
   }
 
-  .lab4-task1 {
-      padding: 10px;
-      margin-bottom: 10px;
-      max-width: 350px;
-      border: solid 3px #5163EB;
-      background-color: #87C9F0;
+.problems {
+    padding: 10px;
+    margin-bottom: 10px;
+    max-width: 350px;
+    border: solid 3px #5163EB;
+    background-color: #87C9F0; 
   }
 
-  
+.results {
+    padding: 10px;
+    margin-bottom: 10px;
+    max-width: 350px;
+    border: solid 3px #5163EB;
+    background-color: #87C9F0; 
+  }
