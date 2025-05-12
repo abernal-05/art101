@@ -36,8 +36,6 @@ a {
   background-color: #D0B9BA;
 }
 
-
-
 /* the hashtag in a CSS selector selects an element by id, e.g., id="content" */
 #content {
   margin: 10px;
@@ -47,10 +45,31 @@ a {
 }
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
-.minor-section {
+#minor-section {
   padding: 10px;
   margin-bottom: 10px;
   border: solid 1px #B09998;
-  background-color: #837085;
+  background-color: #E9DCEB;
 }
 
+#challenges {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: solid 1px #B09998;
+  background-color: #E9DCEB;
+}
+
+#results {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: solid 1px #B09998;
+  background-color: #E9DCEB;
+}
+
+#special {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: dashed 5px #F0BAC0;
+  background-color: #D0B9BA;
+  font-weight: bold;
+}

@@ -1,0 +1,27 @@
+
+
+
+
+#toggle {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: dashed 2px #F0BAC0;
+    background-color: #D0B9BA;
+    font-weight: bold;
+}
+
+
+
+#challenges {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 3px #888;
+    background-color: #E9DCEB;
+}
+
+#minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 3px #888;
+    background-color: #E9DCEB;
+}
