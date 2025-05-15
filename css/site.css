@@ -40,14 +40,6 @@ a {
 }
 
 
-#special {
-  padding: 10px;
-  margin-bottom: 10px;
-  border: dashed 5px #F0BAC0;
-  background-color: #D0B9BA;
-  font-weight: bold;
-}
-
 li {
   float: right;
   border-right: 2px solid #9BC3FA;
@@ -78,3 +70,7 @@ a {
   padding: 8px;
   background-color: #53647A;
 }
+
+
+
+

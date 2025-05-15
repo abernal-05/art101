@@ -1,33 +1,19 @@
 
-#special {
-    padding: 10px;
-    margin-bottom: 10px;
-    border: dashed 10px #F0BAC0;
-    background-color: #D0B9BA;
+.special {
+    font-weight: bold;
+    background-color: #A58C9C;
+    border: dashed, #FAD99B;
+    color: #A4FA9B;
     font-weight: bold;
   }
+
 
 
 #toggle {
     padding: 10px;
     margin-bottom: 10px;
-    border: dashed 2px #F0BAC0;
-    background-color: #E9DCEB;
     font-weight: bold;
-}
-
-
-
-#challenges {
-    padding: 10px;
-    margin-bottom: 10px;
-    border: solid 3px #888;
-    background-color: #E9DCEB;
-}
-
-#minor-section {
-    padding: 10px;
-    margin-bottom: 10px;
-    border: solid 3px #888;
-    background-color: #E9DCEB;
+    border: dashed, 5px, #FAD99B;
+    background-color: #9BC3FA;
+    color: #53647A;
 }

@@ -7,11 +7,18 @@
    Date: 2025
 */
 
-// add a click listener to the challenge button
-$("#toggle").click(function(){
-    // add the "special" class to the section
-    $("#challenges").toggleClass("special");
+// load doc
 
-    $("#challenges").append('<div class="special"></div>');
-    console.log("button is clicked")
+$(document).ready(function() {
+
+console.log("document loaded");
+
+// append to section
+$("#toggle").click(function(){
+console.log("button is clicked"); 
+// code here
+ $("#output").toggleClass("special");
+
 });
+
+})

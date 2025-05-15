@@ -1,3 +1,9 @@
+#Scrambled {
+    border: dashed 6px #FA9BD7;
+    background-color: #9BC3FA;
+    font-weight: bold;
+}
+
 #output {
     padding: 10px;
     margin-bottom: 10px;
@@ -6,16 +12,10 @@
     font-weight: bold;
 }
 
-#minor-section {
-    padding: 10px;
-    margin-bottom: 10px;
-    border: solid 3px #888;
-    background-color: #E9DCEB;
-}
-
-#text {
+.text p {
     font-family: sans-serif;
     font-weight: bold;
-    letter-spacing: 5px;
+    letter-spacing: 15px;
     word-spacing: 5px;
 }
+
