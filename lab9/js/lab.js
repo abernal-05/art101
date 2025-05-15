@@ -7,11 +7,11 @@
    Date: 2025
 */
 
-// add button to challenge section
-$("#challenges").append("<button id='toggle'>Toggle Visibility</button>");
-
 // add a click listener to the challenge button
-$("#button-challenge").click(function(){
-    // now add (or subtract) the "special" class to the section
+$("#toggle").click(function(){
+    // add the "special" class to the section
     $("#challenges").toggleClass("special");
+
+    $("#challenges").append('<div class="special"></div>');
+    console.log("button is clicked")
 });

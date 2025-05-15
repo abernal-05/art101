@@ -1,8 +1,5 @@
 /* we can use a single css file to style all the files in our wwebsite */
 
-/* you can pick your own background colors, text colors, and fonts */
-
-/* we can select an html element tag, in this case "body" will apply to the whole document */
 body {
   background-color: #B0A2AD;
 }
@@ -17,16 +14,6 @@ h1 {
   letter-spacing: 5px;
   word-spacing: 5px;
   font-size: 200%;
-}
-
-#links {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-ul {
-  background-color: #E9BBCB;
 }
 
 
@@ -52,19 +39,6 @@ a {
   background-color: #E9DCEB;
 }
 
-#challenges {
-  padding: 10px;
-  margin-bottom: 10px;
-  border: solid 1px #B09998;
-  background-color: #E9DCEB;
-}
-
-#results {
-  padding: 10px;
-  margin-bottom: 10px;
-  border: solid 1px #B09998;
-  background-color: #E9DCEB;
-}
 
 #special {
   padding: 10px;
@@ -72,4 +46,35 @@ a {
   border: dashed 5px #F0BAC0;
   background-color: #D0B9BA;
   font-weight: bold;
+}
+
+li {
+  float: right;
+  border-right: 2px solid #9BC3FA;
+
+}
+
+li:last-child {
+  border-right: none;
+}
+
+
+#home-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  color: #9BC3FA;
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  display: block;
+  padding: 8px;
+  background-color: #53647A;
 }

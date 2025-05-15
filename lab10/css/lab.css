@@ -1,0 +1,21 @@
+#output {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: dashed 2px #F0BAC0;
+    background-color: #E9DCEB;
+    font-weight: bold;
+}
+
+#minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 3px #888;
+    background-color: #E9DCEB;
+}
+
+#text {
+    font-family: sans-serif;
+    font-weight: bold;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+}

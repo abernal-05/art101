@@ -1,12 +1,18 @@
 
-
+#special {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: dashed 10px #F0BAC0;
+    background-color: #D0B9BA;
+    font-weight: bold;
+  }
 
 
 #toggle {
     padding: 10px;
     margin-bottom: 10px;
     border: dashed 2px #F0BAC0;
-    background-color: #D0B9BA;
+    background-color: #E9DCEB;
     font-weight: bold;
 }
 

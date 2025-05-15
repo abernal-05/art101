@@ -5,3 +5,8 @@
   max-width: 350px;
 }
 
+#home-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
