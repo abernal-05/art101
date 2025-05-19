@@ -1,0 +1,19 @@
+#output {
+    background-color: #E9DCEB;
+    font-weight: bold;
+  }
+
+#submit {
+
+    border: dashed, #53647A;
+    background: #9BC3FA;
+    font-weight: bold;
+
+}
+
+#user-name{
+
+    border: solid 3px #B09998;
+    background-color: #E9DCEB;
+    font-weight: bold;
+}
