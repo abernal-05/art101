@@ -49,6 +49,4 @@ function fizzBuzzBoom(maxNums, factorObj) {
     $("#output").append(oneLongString);
 }
 
-
-
 })
