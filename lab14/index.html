@@ -1,0 +1,41 @@
+<html>
+<head>
+    <title> Lab 14: Debugging Tools & Strategies</title>
+    <!-- Use UTF character set, a good idea with any webpage -->
+	<meta charset="UTF-8" />
+	<!-- Set viewport so page remains consistently scaled w narrow devices -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<!-- Include a sitewide CSS file for consistent styling across the site -->
+	<link rel="stylesheet" type="text/css" href="../css/site.css">
+    <link rel="stylesheet" type="text/css" href="/css/lab.css">
+</head>
+<body>
+    <main id="content">
+        <section>
+            <h1> Lab 14: Debugging Tools & Strategies</h1>
+            <div id="minor-section">
+                <h2>Challenges</h2>
+                <p>With a partner, use your debugging knowledge to fix old assignments.</p>
+            </div>
+            <div id="minor-section">
+                <h2>Problems</h2>
+                <p>I made some syntanx errors when linking my CSS file. "div class=" Instead of "div id=". </p>
+            </div>
+            <div id="minor-section">
+                <h2>Results</h2>
+                <div class="debugging">
+                    <h2>Debugging</h2>
+                    <h2>Lab 12</h2>
+                    <image class="lab12" src="img/dblab12.png"/>
+                    <p>Instead of using "div class='output'" I used "div id='class'”, which didn’t match my JavaScript code. 
+                    Part of the sorting function is appending a string to the “output” section. 
+                    In my function I used jQuery to call an id, but “output” was originally a “class” in my faulty code. 
+                    I saw in my console that my JavaScript was running, 
+                    but since I made an error in my HTML the string made from the sorting function wasn’t printed in my “output” section. </p>
+                </div>
+            </div>
+        <a href="../index.html">Homepage</a>
+        </section>
+    </main>
+</body>
+</html>

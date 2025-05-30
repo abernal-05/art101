@@ -27,6 +27,6 @@ $("#button").click(function(){
     let house = getHouse(nameLength);
     console.log(house);
 
-    $("#output").append('div class="text"><p>' + house + '</div></p>');
+    $("#output").append('<p>' + house + '</div></p>');
 })
 })   

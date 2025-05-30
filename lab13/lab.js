@@ -1,52 +1,53 @@
-$(document).ready(function(){
-    console.log("Doc loaded")
+//FizzBuzzBoom Function
 
-//get input from html
+$(document).ready(function () {
 
-function getFactorObj() {
-    var factorObj = {};
-    for (var factor=0; factor<maxFactors; factor++) {
-        numId = "num" + factor;
-        textId = "text" + factor;
-        numValue = document.getElementById(numId).value;
-        textValue = document.getElementById(textId).value;
-        console.log(factor + ") num:", numValue, "text:", textValue)
-        // if either value is blank, don't use it
-        if (numValue && textValue) {
-            factorObj[numValue] = textValue;
-        }
-    }
-    return factorObj;
-}
+$("#button").click(function() {
 
-// FizzBuzz function
+    //User input factor
 
-function fizzBuzzBoom(maxNums, factorObj) {
-    // iterate over all numbers
-    for (var num=0; num<maxNums; num++) {
-        debugger;
-        // reset output string
-        var outputStr = "";
-        // iterate over the factors from user input
-        for (var factor in factorObj) {
-            // check to see if num is a multiple of factor
-            if (num % factor == 0) {
-                // if yes, then add the text to output string
-                outputStr += factorObj[factor];
-            }
-        }
-        // words in outputStr, format it like " - FizzBuzz!"
-        if (outputStr) {
-            outputStr = " - " + outputStr + "!";
-        }
-        outputToPage(num.toString() + outputStr)
-        // compile one long string as you output numbers
-        oneLongString += num + " Fizz!<br>"; 
+    let i = parseInt($("#userInput").val());
+
+    // for loop to print numbers 1 - 100
+    // FizzBuzz Function
+    // // multiple of 3 & 5
+    for (; i <= 100; i++) {
+    if (i % 15 == 0){
+
+    console.log("FizzBuzz!");
+    str = i + " FizzBuzz!"; 
+    $("#output").append('<p>' + str + '</p>');
     }
 
-    // append to output div
-   
-    $("#output").append(oneLongString);
+    //if statement: if multiple of 3 print "Fizz!"
+
+    else if (i % 3 == 0){
+
+    console.log("Fizz!");
+    str = i + " Fizz!"; 
+    $("#output").append('<p>' + str + '</p>');
+    }
+
+    //else if: multiple of 5 print "Buzz!"
+
+    else if (i % 5 == 0){
+
+    console.log("Buzz!");
+    str = i + " Buzz!"; 
+    $("#output").append('<p>' + str + '</p>');
+    }
+ 
+    else {
+    console.log(i);
+    }
+  
 }
+
+})
+
+$("#clear").click(function() {
+
+    $("#output").hide();
+})
 
 })

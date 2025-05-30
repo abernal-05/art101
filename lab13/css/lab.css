@@ -1,5 +1,24 @@
+
+#minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 3px #888;
+    background-color: #E9DCEB;
+  }
+
 #output {
     background-color: #E9DCEB;
     font-weight: bold;
   }
 
+#button  {
+  border: 3px #FA9BD7;
+  background-color: #9BC3FA;
+  font-weight: bold;
+}
+
+#clear {
+  border: 3px #FA9BD7;
+  background-color: #9BC3FA;
+  font-weight: bold;
+}

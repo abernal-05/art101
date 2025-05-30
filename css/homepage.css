@@ -2,11 +2,12 @@
 
 .intro-selfie {
   margin: 10px;
-  max-width: 350px;
+  max-width: 250px;
 }
 
 #home-links {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  color: #FFFFFF
 }

@@ -7,7 +7,12 @@
     font-weight: bold;
   }
 
-
+#minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 3px #888;
+    background-color: #E9DCEB;
+  }
 
 #toggle {
     padding: 10px;
