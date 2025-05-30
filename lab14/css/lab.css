@@ -1,7 +1,32 @@
-#lab12 {
+.lab12 {
+    padding: 10px;
+    margin-bottom: 10px;
+    max-width: 250px;
+}
+
+.lab12-output {
     padding: 10px;
     margin-bottom: 10px;
     max-width: 350px;
-    border: solid 3px #5163EB;
-    background-color: #87C9F0;
+}
+
+
+.lab13-1 {
+    padding: 10px;
+    margin-bottom: 10px;
+    max-width: 250px;
+}
+
+.lab13-2 {
+    padding: 10px;
+    margin-bottom: 10px;
+    max-width: 350px;
+
+}
+
+.lab13-output {
+    padding: 10px;
+    margin-bottom: 10px;
+    max-width: 350px;
+
 }

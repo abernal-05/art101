@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<!-- Include a sitewide CSS file for consistent styling across the site -->
 	<link rel="stylesheet" type="text/css" href="../css/site.css">
-    <link rel="stylesheet" type="text/css" href="/css/lab.css">
+    <link rel="stylesheet" type="text/css" href="css/lab.css">
 </head>
 <body>
     <main id="content">
@@ -26,12 +26,20 @@
                 <div class="debugging">
                     <h2>Debugging</h2>
                     <h2>Lab 12</h2>
-                    <image class="lab12" src="img/dblab12.png"/>
+                    <image class="lab12" src="img/dblab12.png"/><image class="lab12-output" src="img/lab12-output.png"></image>
                     <p>Instead of using "div class='output'" I used "div id='class'”, which didn’t match my JavaScript code. 
                     Part of the sorting function is appending a string to the “output” section. 
                     In my function I used jQuery to call an id, but “output” was originally a “class” in my faulty code. 
                     I saw in my console that my JavaScript was running, 
                     but since I made an error in my HTML the string made from the sorting function wasn’t printed in my “output” section. </p>
+                    <h2>Lab 13</h2>
+                    <image class="lab13-1" src="img/db-lab13-1.png"></image><image class="lab13-2" src="img/db-lab13-2.png"></image>
+                    <image class="lab13-output" src="img/lab13-output.png"></image>
+                    <p>I went back and watched the lecture on loops to get the JavaScript from the JS Bin activity.
+                         Afterwards I messed around with making the i variable user input.
+                          I have yet to make the text print user input as well though. 
+                          I also didn’t want my output to stack so I created a button that hides the output section. 
+                          Some errors I ran into while writing this code has syntax errors, specifically mistakes in capitalization.</p>
                 </div>
             </div>
         <a href="../index.html">Homepage</a>
